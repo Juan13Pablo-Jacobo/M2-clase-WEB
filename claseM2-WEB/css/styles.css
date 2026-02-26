@@ -1,7 +1,10 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+={
+    font-family: Arial, Helvetica, sans-serif;  
     margin: 20px;
+}
+
+body{
+    line-height: 1.6;
     background-color: rgb(252, 211, 211);
 }
 
@@ -13,8 +16,30 @@ body{
 }
 
 /* Selector de ID */
-.id_selector {
+#id_selector {
     font-size: 20px;
     color: darkmagenta;
     font-style: italic;
+}
+
+/* Combinación de selectores */
+#selectores_universal_combinaciones {
+    font-size: 25px;
+    color: forestgreen;
+}
+
+#selectores_universal_combinaciones p{
+    font-size: 25px;
+    color: rgb(10, 80, 126);
+}
+
+#selectores_universal_combinaciones ul li strong{
+    font-size: 15px;
+    color: rgb(88, 34, 139);
+}
+
+/* Si tiene una coma no es una combinación de selectores, es un selector múltiples*/
+p li{
+    color: deeppink;
+    font-size: 20px;
 }

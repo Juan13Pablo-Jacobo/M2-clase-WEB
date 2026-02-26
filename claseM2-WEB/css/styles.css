@@ -1,5 +1,5 @@
 ={
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family:Arial, Helvetica, sans-serif;  
     margin: 20px;
 }
 
@@ -42,4 +42,29 @@ body{
 p li{
     color: deeppink;
     font-size: 20px;
+}
+
+.display_block{
+        margin: 25px 0 25px 0;
+    display: block;
+    background-color: royalblue;
+}
+
+.display_inline{
+    margin: 10px 0 10px 0;
+    display: inline;
+    background-color: lightcoral;
+    color: antiquewhite;
+}
+
+.display_inline_block{
+    margin: 25px 0 25px 0;
+    display: inline-block;
+    background-color: tomato;
+}
+
+.display_inline_block_2{
+    margin: 25px 0 25px 0;
+    display: inline-block;
+    background-color: rgb(255, 154, 71);
 }

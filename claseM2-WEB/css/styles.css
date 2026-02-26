@@ -103,8 +103,8 @@ p li{
 }
 
 .pseudo_active{
-    padding: 15px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 20px;
     border: 2px solid ;
     background-color: rgba(100, 148, 237, 0.452);
 }

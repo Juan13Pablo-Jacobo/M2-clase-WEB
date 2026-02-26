@@ -68,3 +68,48 @@ p li{
     display: inline-block;
     background-color: rgb(255, 154, 71);
 }
+
+.pseudo_hover{
+    background-color: cadetblue;
+    color: rgb(39, 36, 36);
+    border-radius: 15px;
+    border: 2px solid ;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+}
+
+.pseudo_hover:hover{
+    background-color: rgb(90, 118, 207);
+    color: rgb(245, 196, 196);
+    border-radius: 20px;
+    border: 2px solid ;
+    font-size: 20px;
+}
+
+.pseudo_focus{
+    background-color: rgb(132, 248, 229);
+    color: rgb(39, 36, 36);
+    border-radius: 15px;
+    border: 2px solid ;
+    font-size: 15px;
+}
+
+.pseudo_focus:focus{
+    background-color: rgb(236, 182, 198);
+    color: rgb(184, 115, 230);
+    border-radius: 15px;
+    border: 2px solid ;
+    font-size: 15px;
+}
+
+.pseudo_active{
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid ;
+    background-color: rgba(100, 148, 237, 0.452);
+}
+
+.pseudo_active:active{
+    background-color: blueviolet;
+    border: 2px solid ;
+}
